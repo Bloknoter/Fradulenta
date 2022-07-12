@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c5ddd89465f60745835d0cc24b530d6, type: 3}
+  m_Name: Abilities database
+  m_EditorClassIdentifier: 
+  abilityDatas:
+  - Name: Smoke attack
+    Description: Makes a big cloud of smoke near the spy
+    AbilityPrefab: {fileID: 1599316011622299468, guid: f61d1223b57f2394b9cef7bf4741cc09,
+      type: 3}
+  - Name: Flash
+    Description: Flashes the screen and teleports the spy to the random point
+    AbilityPrefab: {fileID: 2556995130077017039, guid: 070fe609d468cb442b2313800df9107c,
+      type: 3}
+  CurrentAblilityDataID: 0
